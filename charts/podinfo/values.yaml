@@ -15,7 +15,7 @@ service:
 # Heapster or metrics-server add-on required
 hpa:
   enabled: false
-  maxReplicas: 10
+  maxReplicas: 9
   # average total CPU usage per pod (1-100)
   cpu:
   # average memory usage per pod (100Mi-1Gi)
